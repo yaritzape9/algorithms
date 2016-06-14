@@ -1,0 +1,12 @@
+function simpleAdd(num){
+  result = 0;
+
+  i = 0;
+  while (i <= num){
+    result += i
+    i += 1
+    }
+  return(result);
+  }
+simpleAdd(5);
+simpleAdd(10);
